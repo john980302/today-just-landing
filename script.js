@@ -180,7 +180,7 @@ document.addEventListener('DOMContentLoaded', () => {
 
     // Call API to save email
     try {
-      const response = await fetch('https://contact_capture.mirolab.kr/api/contacts', {
+      const response = await fetch('https://contact-capture.mirolab.kr/api/contacts', {
         method: 'POST',
         headers: {
           'Authorization': 'Bearer ccs_eef21ae41ceee921081bf66b4990da2c21de1f0a0a746c13739b0c7564aa6edd',
